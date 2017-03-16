@@ -1,0 +1,33 @@
+body{
+  background-image: url("bluecubes.png");
+  background-repeat: repeat;
+}
+
+.jumbotron{
+    background-image: url("greycubes.png");
+    background-repeat: repeat;
+    min-height: 25vw;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 0% !important;
+}
+
+.main-segment{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0vw;
+  margin-bottom: 10%;
+  background-color: white !important;
+}
+
+h1{
+    color:#d7dce2 !important;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+
+p{
+    color:#d7dce2 !important;
+}
+
+hr{
+    border-color:grey !important;
+}
