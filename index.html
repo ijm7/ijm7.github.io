@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html>
+<html lang=en>
     <head>
         <title>Iain Morton</title>
         <meta charset="UTF-8">
@@ -18,13 +17,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Iain Morton</a>
+                    <a class="navbar-brand" href="index.html">Iain Morton</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="../navbar/">Default</a></li>
-                        <li><a href="../navbar-static-top/">Static top</a></li>
-                        <li class="active"><a href="./">Fixed top <span class="sr-only"></span></a></li>
+                        <li><a href="#aboutme">About me</a></li>
+                        <li><a href="#learnt">What I have learned</a></li>
+                        <li><a href="#myprojects">My projects</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -32,18 +31,132 @@
         <div class="jumbotron">
             <div class="container"><br><br><br><br>
                 <div class="row justify-content-sm-center">
-                    <div class="col-sm-3"><img src="placeholder.png" class="img-responsive img-circle" alt="Mountain View" style="width:250px;height:250px;"></div>
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-6"><br><br>
+                    <div class="col-lg-3 col-md-offset-1"><img src="placeholder.png" class="img-responsive img-circle" alt="Mountain View" style="width:250px;height:250px;min-width: 250px;"></div>
+                    <div class="col-lg-6"><br><br>
                         <h1>Iain Morton</h1>
                         <hr>
-                        <p>Computing Science student at the University of Dundee</p>
+                        <p class="undertext">Computing Science student at the University of Dundee</p>
                     </div>
                 </div>
+                 <a name="aboutme"></a>
             </div>
         </div>
         <div class="main-segment">
-            <p>hello</p>
+            <div class="container-fluid" style="margin:5% 5% 5% 5%">
+                <br>
+                <h2>About Me</h2>
+                <hr>
+                <div class="row justify-content-sm-center">
+                    <div class="col-sm-8 text-justify">
+                        <p>Hello, I am Iain Morton, a third year Computing Science student at the University of Dundee.
+                        This is my personal web page, where I will tell you a bit more about myself and showcase the various projects that I have worked on.</p>
+                        <iframe style="margin: 0 auto;" src="https://ghbtns.com/github-btn.html?user=ijm7&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+                    </div>
+                    <div class="col-sm-3 col-md-offset-1 findme">
+                        <h3 class="text-center">Find me on:</h3><hr>
+                        <a href="https://github.com/ijm7" target="_blank">
+                        <img src="GitHub_Logo.png" class="img-responsive center-block" alt="Github logo" style="height:60px;"></a>
+                        <br>
+                        <br>
+                        <a href="https://www.linkedin.com/in/iain-morton-097919117/" target="_blank">
+                        <img src="Logo-2C-59px-TM.png" class="img-responsive center-block" alt="Linkedinlogo" style="height:40px;"></a>
+                        <a name="learnt"></a>
+                        <br><br>
+                    </div>
+                </div>
+                <br>
+                <h2 >What I have learned so far</h2>
+                <hr>
+                <div class="row justify-content-sm-center" style="border-style:solid;border-width:1px;
+                 border-radius: 5px;
+                 border-color:grey;">
+                    <div class="col-sm-4">
+                        <h3 style="text-align:center";>Programming Languages</h3>
+                        <hr>
+                        <div class="chart">
+                            <div style="width: 90%;background-color:#0033cc" class="bar"><p class="bartext">Java</p></div>
+                            <div style="width: 70%;background-color:#0040ff;" class="bar"><p class="bartext">C++</p></div>
+                            <div style="width: 70%;background-color:#0040ff;" class="bar"><p class="bartext">C#</p></div>
+                            <div style="width: 30%;background-color:#3366ff;" class="bar"><p class="bartext">Haskell</p></div>
+                            <div style="width: 30%;background-color:#3366ff;" class="bar"><p class="bartext">C</p></div>
+                            <div style="width: 30%;background-color:#3366ff;" class="bar"><p class="bartext">Bash</p></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3 style="text-align:center";>Web and Database Technologies</h3>
+                        <hr>
+                        <div class="chart">
+                            <div style="width: 90%; background-color:#196619;" class="bar"><p class="bartext">HTML</p></div>
+                            <div style="width: 90%; background-color:#196619;" class="bar"><p class="bartext">JSP</p></div>
+                            <div style="width: 50%; background-color:#239023;" class="bar"><p class="bartext">PHP</p></div>
+                            <div style="width: 50%; background-color:#239023;" class="bar"><p class="bartext">SQL</p></div>
+                            <div style="width: 50%; background-color:#239023;" class="bar"><p class="bartext">REST</p></div>
+                            <div style="width: 50%; background-color:#239023;" class="bar"><p class="bartext">CSS</p></div>
+                            <div style="width: 30%; background-color:#2db92d;" class="bar"><p class="bartext">Cassandra</p></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="margin-bottom:3%;">
+                        <h3 style="text-align:center";>Software Development</h3>
+                        <hr>
+                        <div class="chart">
+                            <div style="width: 90%; background-color:#800060;" class="bar"><p class="bartext">Requirements Analysis</p></div>
+                            <div style="width: 90%; background-color:#800060;" class="bar"><p class="bartext">Model-View-Controller Architecture</p></div>
+                            <div style="width: 70%; background-color:#990073;" class="bar"><p class="bartext">Agile Development</p></div>
+                            <div style="width: 70%; background-color:#990073;" class="bar"><p class="bartext">Git Version Control</p></div>
+                            <div style="width: 50%; background-color:#cc0099;" class="bar"><p class="bartext">Software Design Patterns</p></div>
+                            <div style="width: 50%; background-color:#cc0099;" class="bar"><p class="bartext">Test Driven Development</p></div>
+                            <div style="width: 30%; background-color:#ff00bf;" class="bar"><p class="bartext">Database Design</p></div>
+                            <a name="myprojects"></a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <h2>My Projects</h2>
+                <hr>
+                <div class="row justify-content-sm-center">
+                    <div class="col-sm-4">
+                        <h3 style="text-align:center";>QuizApp</h3>
+                        <a href='https://github.com/AC31007-Team1/quizapp' target="_blank"><img src="GitHub-Mark-32px.png" class="img-responsive center-block" alt="quizappgit" style="width:20px;"></a>
+                        <hr>
+                        <a href='quizapp.png' target="_blank"><img src="quizapp.png" class="img-responsive center-block" alt="quizapp" style="width:100%;"></a>
+                        <h5>Utilised skills include: HTML, JSP, Java, SQL, Agile Development, Model-View-Controller, Git Version Control and Test Driven Development.</h5>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3 style="text-align:center";>Delivrhyno</h3>
+                        <a href='https://github.com/AC32006-Team11/delivrhyno' target="_blank"><img src="GitHub-Mark-32px.png" class="img-responsive center-block" alt="delivrhynogit" style="width:20px;"></a>
+                        <hr>
+                        <a href='delivrhyno.png' target="_blank"><img src="delivrhyno.png" class="img-responsive center-block" alt="delivrhyno" style="width:100%;"></a>
+                        <h5>Utilised skills include: HTML, PHP, SQL, Requirements Analysis, Database Design and Git Version Control.</h5>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3 style="text-align:center";>Minesweeper</h3>
+                        <a href='https://github.com/ijm7/Minesweeper' target="_blank"><img src="GitHub-Mark-32px.png" class="img-responsive center-block" alt="minesweepergit" style="width:20px;"></a>
+                        <hr>
+                        <a href='minesweeper.png' target="_blank"><img src="minesweeper.png" class="img-responsive center-block" alt="minesweeper" style="width:57.2%;"></a>
+                        <h5>Utilised skills include: C# and the Microsoft Visual Studio IDE.</h5>
+                    </div>
+                </div>
+                <div class="row justify-content-sm-center">
+                    <div class="col-sm-4 text-justify">
+                        <p style="font-size:1.4vh;">QuizApp is a Quiz Website that allows staff to create quizzes which students can then complete. The website was designed by an agile development team consisting of myself and other students.
+                        It makes use of JSP to provide dynamic content with a SQL database storing data including profile information and quiz details.</p>
+                    </div>
+                    <div class="col-sm-4 text-justify">
+                        <p style="font-size:1.4vh;">Delivrhyno is a website developed with a team for a company that offers take-away delivery services to restaurants, whereby customers can place their orders online and have the food delivered directly to them.
+                        Users can select from restaurants in their area and choose the food they wish to order. The website also includes a Database Management System, which allows the admin to make manipulations
+                        on the database. These manipulations include full CRUD functionality on restaurant employees, branches of the company, restaurants and restaurant menu items. It makes use of PHP for dynamic content with a SQL database.
+                    </p>
+                    </div>
+                    <div class="col-sm-4 text-justify">
+                        <p style="font-size:1.4vh;">Minesweeper, as its name would imply, is a clone of the classic computer game minesweeper. It is programmed in C# and uses Windows Forms to provide the GUI.
+                        Features include Saved High Scores and GUI elements that make the user aware of how many mines are near the tile that they have just uncovered. To complete the game the user must mark out all mines
+                        on the game screen successfully without detonating any mines.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
         </div>
     </body>
+    <p style="color:black;background-color:white; margin-left:15%;margin-right:15%;padding:5px;font-size:1.4vh;">Designed by Iain Morton, 2017</p>
 </html>
