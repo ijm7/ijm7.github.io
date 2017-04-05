@@ -21,14 +21,33 @@ footer{
 .main-segment{
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 0vw;
+  margin-top: -3%;
   margin-bottom: 1%;
   background-color: white !important;
   min-height: 25vw;
+  border-radius:3px;
 }
 
 .inner-container{
 	margin:5% 5% 5% 5%;
+}
+
+.header-surround{
+	border-style:solid;
+	border-width:0px;
+    border-radius: 5px;
+    border-color:grey;
+    margin-left:-5%;
+    margin-right:-5%;
+    padding-left:5%;
+    padding-top:1%;
+    padding-bottom:1%;
+    margin-bottom:2%;
+    
+    background-image: url("img/whiteinterlockers.png");
+    background-repeat: repeat;
+    box-shadow: 0px 2px 5px black;
+    
 }
 
 h1{
@@ -39,6 +58,8 @@ h1{
 
 h2{
     color:black;
+    padding: 0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
 }
 
 h3{
@@ -52,7 +73,7 @@ h5{
 }
 
 p{
-    font-size: 1.7vh;
+    font-size: 2vh;
 }
 
 p.undertext{
@@ -61,11 +82,12 @@ p.undertext{
 }
 
 p.projecttext{
-	font-size:1.8vh;
+	font-size:2vh;
 }
 
 p.bartext{
     margin-bottom:2px;
+    font-size: 2.1vh;
 }
 
 hr{
@@ -77,6 +99,7 @@ hr{
     border-width:0.5px;
      border-radius: 5px;
      border-color:grey;
+     box-shadow: 2px 2px 5px black;
 }
 
 img.findimages{
@@ -92,6 +115,7 @@ img.findimages{
   margin: 0px;
   color: white;
   border-left:solid 2px black;
+  
 }
 
 .chart-container{
@@ -99,6 +123,7 @@ img.findimages{
 	border-width:1px;
     border-radius: 5px;
     border-color:grey;
+    box-shadow: 0px 0px 3px black;
 }
 
 .bar{
