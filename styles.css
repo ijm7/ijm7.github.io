@@ -15,7 +15,7 @@ footer{
     background-repeat: repeat;
     min-height: 25vw;
     box-shadow: 0 0 10px black;
-    margin-bottom: 0% !important;
+    margin-bottom: -3% !important;
 }
 
 .main-segment{
@@ -54,7 +54,7 @@ h1{
     color:#d7dce2 !important;
     font-family:"Arial Black", Gadget, sans-serif;
     /*font-size: 5vh !important;*/
-    font-size:calc(20px + 4vh);
+    font-size:calc(16px + 4vh);
 }
 
 h2{
@@ -64,17 +64,17 @@ h2{
 }
 
 h3{
-    font-size:calc(15px + 2vmin);!important;
+    font-size:calc(15px + 1.2vmin);!important;
     text-align:center;
 }
 h5{
     color:grey !important;
-    font-size:calc(10px + 0.6vmin); !important;
+    font-size:calc(10px + 0.5vmin); !important;
     text-align: center;
 }
 
 p{
-    font-size:calc(10px + 1vmin); /* first argument is minimum size, second argument defines growth on top of that*/
+    font-size:calc(11px + 1vmin); /* first argument is minimum size, second argument defines growth on top of that*/
 }
 
 p.undertext{
@@ -84,7 +84,7 @@ p.undertext{
 }
 
 p.projecttext{
-	font-size:calc(10px + 1vmin);
+	font-size:calc(11px + 0.7vmin);
 }
 
 p.bartext{
@@ -150,7 +150,7 @@ img.projectimg{
 }
 
 .skills{
-	min-height:7.5vh;
+	min-height:calc(10px + 7vh);
 }
 
 @media screen and (max-width: 1025px) {
