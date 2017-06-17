@@ -43,17 +43,18 @@ footer{
     padding-top:1%;
     padding-bottom:1%;
     margin-bottom:2%;
-    
+
     background-image: url("img/whiteinterlockers.png");
     background-repeat: repeat;
     box-shadow: 0px 2px 5px black;
-    
+
 }
 
 h1{
     color:#d7dce2 !important;
     font-family:"Arial Black", Gadget, sans-serif;
-    font-size: 5vh !important;
+    /*font-size: 5vh !important;*/
+    font-size:calc(20px + 4vh);
 }
 
 h2{
@@ -63,31 +64,33 @@ h2{
 }
 
 h3{
-    font-size: 2.5vh !important;
+    font-size:calc(15px + 2vmin);!important;
     text-align:center;
 }
 h5{
     color:grey !important;
-    font-size: 1.6vh !important;
+    font-size:calc(10px + 0.6vmin); !important;
     text-align: center;
 }
 
 p{
-    font-size: 2vh;
+    font-size:calc(10px + 1vmin); /* first argument is minimum size, second argument defines growth on top of that*/
 }
 
 p.undertext{
     color:#d7dce2 !important;
-    font-size: 2.3vh !important;
+    /*font-size: 2.3vh !important;*/
+    font-size:calc(12px + 1vmin);
 }
 
 p.projecttext{
-	font-size:2vh;
+	font-size:calc(10px + 1vmin);
 }
 
 p.bartext{
     margin-bottom:2px;
-    font-size: 2.1vh;
+    /*font-size: 2.1vh;*/
+    font-size:calc(10px + 1vmin);
 }
 
 hr{
@@ -115,7 +118,7 @@ img.findimages{
   margin: 0px;
   color: white;
   border-left:solid 2px black;
-  
+
 }
 
 .chart-container{
