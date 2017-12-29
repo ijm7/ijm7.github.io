@@ -1,168 +1,98 @@
-body{
-  background-image: url("img/bluecubes.png");
-  background-repeat: repeat;
+.skills-card {
+	margin-bottom:3vh;
 }
 
-footer{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0vw;
-    margin-bottom: 10%;
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  
 }
 
-.jumbotron{
-    background-image: url("img/greycubes.png");
-    background-repeat: repeat;
-    min-height: 25vw;
-    box-shadow: 0 0 10px black;
-    margin-bottom: -3% !important;
+/*
+ * Typography
+ */
+
+h1 {
+	font-family: 'Roboto', sans-serif;
 }
 
-.main-segment{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: -3%;
-  margin-bottom: 1%;
-  background-color: white !important;
-  min-height: 25vw;
-  border-radius:3px;
+h2 {
+	font-family: 'Roboto', sans-serif;
 }
 
-.inner-container{
-	margin:5% 5% 5% 5%;
+h3 {
+	font-family: 'Roboto', sans-serif;
 }
 
-.header-surround{
-	border-style:solid;
-	border-width:0px;
-    border-radius: 5px;
-    border-color:grey;
-    margin-left:-5%;
-    margin-right:-5%;
-    padding-left:5%;
-    padding-top:1%;
-    padding-bottom:1%;
-    margin-bottom:2%;
-
-    background-image: url("img/whiteinterlockers.png");
-    background-repeat: repeat;
-    box-shadow: 0px 2px 5px black;
-
+p {
+	font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-    color:#d7dce2 !important;
-    font-family:"Arial Black", Gadget, sans-serif;
-    /*font-size: 5vh !important;*/
-    font-size:calc(16px + 4vh);
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  overflow-x: hidden; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
 }
 
-h2{
-    color:black;
-    padding: 0px 0px 0px 0px;
-    margin:0px 0px 0px 0px;
+.intro-segment {
+	margin:5%;
 }
 
-h3{
-    font-size:calc(15px + 1.2vmin);!important;
-    text-align:center;
-}
-h5{
-    color:grey !important;
-    font-size:calc(10px + 0.5vmin); !important;
-    text-align: center;
-}
-
-p{
-    font-size:calc(11px + 1vmin); /* first argument is minimum size, second argument defines growth on top of that*/
-}
-
-p.undertext{
-    color:#d7dce2 !important;
-    /*font-size: 2.3vh !important;*/
-    font-size:calc(12px + 1vmin);
+@media screen and (min-width: 992px) {
+	.sidebar {
+		position: fixed;
+		top: 0px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		padding: 20px 0;
+		overflow-x: hidden;
+		overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+		border-right: 1px solid #eee;
+		height:100vh;
+	}
+	.intro-segment {
+		margin:19%;
+	}
 }
 
-p.projecttext{
-	font-size:calc(11px + 0.7vmin);
+.sidebar .nav {
+  margin-bottom: 20px;
 }
 
-p.bartext{
-    margin-bottom:2px;
-    /*font-size: 2.1vh;*/
-    font-size:calc(10px + 1vmin);
+.sidebar .nav-item {
+  width: 100%;
 }
 
-hr{
-    border-color:grey !important;
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
 }
 
-.findme{
-    border-style:solid;
-    border-width:0.5px;
-     border-radius: 5px;
-     border-color:grey;
-     box-shadow: 2px 2px 5px black;
+.sidebar .nav-link {
+  border-radius: 0;
 }
 
-img.findimages{
-	width:150px;
-	max-width:90%;
+/*
+ * Dashboard
+ */
+
+/* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
 }
 
-.chart{
-  font: 10px sans-serif;
-  background-color: white;
-  text-align: right;
-  padding: 0px;
-  margin: 0px;
-  color: white;
-  border-left:solid 2px black;
-
-}
-
-.chart-container{
-	border-style:solid;
-	border-width:1px;
-    border-radius: 5px;
-    border-color:grey;
-    box-shadow: 0px 0px 3px black;
-}
-
-.bar{
-    background-color: black;
-    padding: 10px;
-    margin: 5px;
-    margin-left:0px;
-    text-align: left;
-    border-width:0.5px;
-    border-radius: 0px 5px 5px 0px;
-    border-color:blue;
-    word-wrap: break-word !important;
-}
-
-img.gitlogo{
-	width:20px;
-}
-
-img.projectimg{
-	min-height:100%;
-}
-
-.skills{
-	min-height:calc(10px + 7vh);
-}
-
-@media screen and (max-width: 1025px) {
-    .main-segment {
-        margin-left: 0%;
-		margin-right: 0%;
-    }
-}
-
-@media screen and (max-width: 1367px) and (min-width: 1025px){
-    .main-segment {
-        margin-left: 5%;
-		margin-right: 5%;
-    }
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
