@@ -1,0 +1,29 @@
+{
+	"page": "skills.html",
+	"skills": [
+		{
+			"title": "Desktop Software Development",
+			"body": "I have had experience in developing both command line and graphical user interface-based applications in a variety of programming languages, including Java and C++. Particularly interesting desktop applications I have been involved in developing include an emulator of the Manchester SSEM and a Graphical Interface for performing testing and monitoring of an I2C bus-based embedded device.",
+			"languages": ["Java", "C++", "C", "C#", "MATLAB", "Erlang", "Haskell", "Bash"],
+			"supplements": ["GTK+", "WxWidgets", "Java Swing", "WinForms", "MonoGame"]
+		},
+		{
+			"title": "Website Development",
+			"body": "I have been involved in the development of many websites, including designs for mock clients during my time at university. A recent task involved developing a Quiz website where university staff could make quizzes, then students could complete them.",
+			"languages": ["HTML", "CSS", "Javascript", "PHP", "JavaServer Pages"],
+			"supplements": ["Bootstrap", "Laravel", "REST", "MVC"]
+		},
+		{
+			"title": "Database Systems",
+			"body": "Generally, when choosing a standard RDBMS, I have normally chosen to use MySQL. I have also used Cassandra in implementations where a NoSQL database system were appropriate.",
+			"languages": ["MySQL", "Cassandra"],
+			"supplements": ["MySQL Workbench"]
+		},
+		{
+			"title": "Software Engineering Methods",
+			"body": "I have participated in several projects where the agile and scrum techniques have been used to deliver regular iterations of a piece of software.",
+			"languages": ["Git", "SVN"],
+			"supplements": ["Systems Development Life Cycle", "Agile", "Scrum", "Unit Testing", "Test-Driven Development"]
+		}
+	]
+}
