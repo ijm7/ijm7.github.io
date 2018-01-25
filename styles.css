@@ -18,6 +18,11 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.subtitle {
+	font-family: 'Open Sans', sans-serif;
+	color:grey;
+}
+
 /*
  * Sidebar
  */
